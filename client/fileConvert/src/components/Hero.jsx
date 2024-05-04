@@ -9,7 +9,7 @@ function Hero() {
 
   const handleFileChange = (e) => {
     setSelectedFile(e.target.files[0]);
-    // Clear the conversion message and success status when a new file is selected
+   
     setConversionMessage("");
     setConversionSuccess(true);
   };
